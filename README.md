@@ -6,7 +6,8 @@ We forecast acceptance for ICLR 2027 submissions before the reviews (2026-11-05)
 
 - 10,368 ICLR 2027 submissions in 31 research tracks.
 - For each paper: the predicted probability of acceptance, a LingEQ value, and its rank within its track.
-- LingEQ is derived from the rank of the predicted probability. A higher value means a paper is more likely to be accepted. The maximum is 200.
+- LingEQ gives each paper a value of up to 200; a higher value means the paper is more likely to be accepted.
+- Within each track, papers are ranked by their LingEQ value.
 
 ## Files to be published
 

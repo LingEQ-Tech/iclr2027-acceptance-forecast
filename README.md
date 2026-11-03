@@ -8,11 +8,6 @@ We forecast acceptance for ICLR 2027 submissions before the reviews (2026-11-05)
 - For each paper: the predicted probability of acceptance, a LingEQ value, and its rank within its track.
 - LingEQ is derived from the rank of the predicted probability. A higher value means a paper is more likely to be accepted. The maximum is 200.
 
-## Acceptance rate
-
-- The probabilities assume an overall acceptance rate that was fixed before the reviews.
-- After the decisions are released, all probabilities are shifted together (the same constant is added to every log-odds) so that they sum to the number of accepted papers among these 10,368. Ranks and LingEQ values do not change.
-
 ## Files to be published
 
 - `forecast/predictions_2027.csv`: one row per paper. Columns: `forum_id`, `title`, `link`, `track`, `primary_area`, `p_accept`, `lingeq`, `track_rank`, `track_size`, `area_rank` (rank within the primary area).
